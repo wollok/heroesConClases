@@ -1,6 +1,6 @@
 # Héroes (con clases)
 
-<img src="img/heroes.png" height="150" width="250">
+<img src="img/heroes.png" height="200" width="270">
 
 Siguiendo la implementación [original](https://github.com/wollok/03-heroes-con-objetos) queremos llevar a un terreno más general nuestro ejemplo:
 
