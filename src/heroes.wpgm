@@ -1,0 +1,17 @@
+import heroes.*
+
+program heroes {
+
+	const shrek = new Heroe()
+	const liberarAFiona = new LiberarDoncella(5)
+	shrek.agregarMision(liberarAFiona)
+	shrek.agregarMision(new BuscarItemMagico(40))
+	console.println(shrek.misionQueTengaMayorRecompensaQue(5))
+	shrek.misionesOrdenadasPorPuntos().forEach { mision =>
+		console.println(mision)
+		console.println(mision.puntosRecompensa())
+		console.println("***************************")
+	}
+	shrek.cambiarSolicitante("señor X")
+	
+}
