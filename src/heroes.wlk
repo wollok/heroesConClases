@@ -1,7 +1,7 @@
 class Heroe {
 
 	const misiones = new Set()
-
+	
 	method agregarMision(_mision) {
 		misiones.add(_mision)
 	}
@@ -12,7 +12,7 @@ class Heroe {
 
 	method solicitantesDeMisMisiones() = misiones.map({ mision => mision.solicitante() })
 
-	method totalPuntosDeRecompensa() = misiones.fold(0, { acum , mision => acum + mision.puntosRecompensa() })
+	method totalPuntosDeRecompensa() = misiones.sum({ mision => mision.puntosRecompensa() })
 
 	method misionQueTengaMayorRecompensaQue(puntos) = misiones.find({ mision => mision.puntosRecompensa() > puntos })
 
