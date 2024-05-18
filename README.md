@@ -1,6 +1,6 @@
 # Héroes (con clases)
  
-[![Build Status](https://travis-ci.org/wollok/heroesConClases.svg?branch=master)](https://travis-ci.org/wollok/heroesConClases)
+[![Build Status](https://github.com/wollok/heroesConClases/actions/workflows/ci.yml/badge.svg)](https://github.com/wollok/heroesConClases/actions/workflows/ci.yml)
 
 
 <img src="img/heroes.png" height="170" width="370">
